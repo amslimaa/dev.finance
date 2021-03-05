@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+h1 { 
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+header {
+  background-color: #284121;
+}
+.cards  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 200px 0px 200px;
+}
+.cards p {
+  color: rgb(41, 37, 41);
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 10px 10px;
+  align-items: center;
+}
+.card { 
+  background-color: #fff;
+  width: 30vw;
+  height: 20vh;
+  max-width: 400px;
+  max-height: 150px;
+  border: 2px;
+  border-radius: 5px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: -30px;
+}
+.card p{
+  color: #504e4e;
+  font-weight: 700;
+}
+p.saldo {
+  font-size: 30px;
+}
+.wallet {
+  background-color: #41a022;
+}
+.wallet p {
+  color: #fff;
+}
+.bi-arrow-up-circle{
+  font-size: 2rem; 
+  color: rgb(29, 143, 44);
+}
+.bi-arrow-down-circle{
+  font-size: 2rem; 
+  color: rgb(211, 54, 54);
+}
+.bi-wallet {
+  font-size: 2rem; 
+}
+.content {
+  padding: 40px;
+  height: 73.7vh;
+  background-color: #e3e3e3;
+}
+.content p { 
+  padding: 0px 200px 0px 200px;
+}
+.resumo {
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+.bi-plus {
+  font-size: 2rem;
+  color: rgb(64, 187, 27);
+}
+.new-transaction {
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+  color: #68ce4c;
+  font-weight: bold;
+}
+
+.transactions {
+
+}
+.footer {
+  margin: 40px 40px 40px 40px;
+  text-align: center;
+}
